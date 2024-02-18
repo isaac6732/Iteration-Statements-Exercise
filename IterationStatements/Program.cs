@@ -70,7 +70,7 @@
         {
             Console.WriteLine("Enter your age");
             
-            var age = Console.ReadLine();
+            var age = int.Parse(Console.ReadLine());
            
             if (age >= 18)
             {
@@ -86,7 +86,7 @@
         public static void IsNumberInRage()
         {
             Console.WriteLine("Plese enter in a number:");
-            var userInput = int.Parse (Console.ReadLine());
+            var userInput = int.Parse(Console.ReadLine());
 
             if(userInput >= -10 && userInput <= 10)
             {
@@ -111,11 +111,10 @@
         {
             //print();
             //print2();
-            //print3();
             //IsEqual();
             //EvenOrOdd();
             //PositiveOrNegative();
-            //CanVote(21);
+            //CanVote();
             //IsNumberInRage();
             //MultiplicationTable(5);
             //IsNumberInRage();
